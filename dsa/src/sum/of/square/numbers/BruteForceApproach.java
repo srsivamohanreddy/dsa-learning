@@ -2,10 +2,10 @@ package sum.of.square.numbers;
 
 //Given a non-negative integer c, decide whether there are two integers a and b such that a^2 + b^2 = c.
 
-//time complexity - O(sqrt(n)^2) = O(n)
-//space complexity - O(1)
+//The time complexity of this code is O(sqrt(n)^2) = O(n) because the two nested loops iterate up to the square root of n.
+// The space complexity is O(1) because the amount of extra space used does not depend on the input size n.
 
-public class BruteForce {
+public class BruteForceApproach {
     public static void main(String[] args) {
         int n = 100;
         System.out.println(sumSquare(n));
